@@ -12,3 +12,13 @@ console.log({
     pid,
     input
 });
+
+h1.classList.add("rojo")
+h1.classList.add("verde")
+
+input.value ="456"
+
+const img = document.createElement("img")
+img.setAttribute("src", 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif')
+console.log(img);
+pid.append(img)
